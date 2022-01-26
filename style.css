@@ -121,3 +121,29 @@ footer .row p, .row span {
 .ms_background-footer-2 .row p {
     font-size: 14px;
 }
+
+@media all and (max-width: 992px) {
+
+    #contact .container {
+        max-width: 500px;
+    }
+
+    .ms_about-description {
+        max-width: 450px;
+    }
+
+}
+
+@media all and (max-width: 576px) {
+
+    #contact .container {
+        max-width: 300px;
+    }
+
+    .ms_about-description {
+        column-count: 1;
+        column-gap: 1.2rem;
+        max-width: 250px;
+    }
+
+}
