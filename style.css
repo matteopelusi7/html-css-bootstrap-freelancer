@@ -25,16 +25,20 @@ header .row {
     position: relative;
 }
 
+.ms_icon i {
+    font-size: 25px;
+}
+
 .ms_icon-star::before {
     content: '';
     display: block;
     background-color: white;
     height: 2px;
-    width: 80px;
+    width: 100px;
     position: absolute;
     bottom: 45%;
     right: 50%;
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 .ms_icon-star::after {
@@ -42,24 +46,31 @@ header .row {
     display: block;
     background-color: white;
     height: 2px;
-    width: 80px;
+    width: 100px;
     position: absolute;
     bottom: 45%;
     left: 50%;
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
-#portfolio {
-    min-height: 850px;
+.ms_icon-star.ms_color-black::before, .ms_icon-star.ms_color-black::after  {
+    background-color: black;
+}
+
+#portfolio img {
+    max-width: 100%;
+    border-radius: 5px;
 }
 
 #about {
     background-color: #1abc9c;
-    min-height: 500px;
+    color: white;
 }
 
-#contact {
-    min-height: 700px;
+.ms_about-description {
+    column-count: 2;
+    column-gap: 1.2rem;
+    max-width: 950px;
 }
 
 .ms-background-footer-1 {
