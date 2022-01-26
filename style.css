@@ -33,7 +33,7 @@ header .row {
     content: '';
     display: block;
     background-color: white;
-    height: 2px;
+    height: 3px;
     width: 100px;
     position: absolute;
     bottom: 45%;
@@ -45,7 +45,7 @@ header .row {
     content: '';
     display: block;
     background-color: white;
-    height: 2px;
+    height: 3px;
     width: 100px;
     position: absolute;
     bottom: 45%;
@@ -73,12 +73,51 @@ header .row {
     max-width: 950px;
 }
 
+#contact .container {
+    max-width: 950px;
+}
+
+.row input, .row textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+footer {
+    color: white;
+}
+
 .ms-background-footer-1 {
     background-color: #3a546d;
-    min-height: 250px;
 }
 
 .ms_background-footer-2 {
     background-color: #2c3e50;
+}
+
+.ms_icon-footer i {
+    text-align: center;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 999px;
+}
+
+footer .row p, .row span {
+    font-size: 18px;
+}
+
+.ms_color-green {
+    color: #20a892;
+    display: inline-block
+}
+
+.ms_background-footer-2 .row {
     min-height: 100px;
+}
+
+.ms_background-footer-2 .row p {
+    font-size: 14px;
 }
